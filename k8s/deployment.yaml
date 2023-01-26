@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: sicemal/kube-news:v2
+          image: sicemal/kube-news:{{TAG}}
           ports:
             - containerPort: 8080
           env:
